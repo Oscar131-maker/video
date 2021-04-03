@@ -1,0 +1,58 @@
+body{
+    background:$white;
+    overflow-x: hidden;
+    font-family:$poppins !important;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+// General tipografy
+a{
+   text-decoration: none !important;
+}
+
+// General class
+ul.social-media{
+   display: flex;
+   margin:0;
+   padding:0;
+   li{
+     list-style:none;
+     a{
+        margin:0px 15px;
+        font-size:30px;
+        color:$black1;
+        border-bottom:4px solid $principal;
+        transition:500ms ease;
+        i{
+          font-size:30px;
+        }
+     }
+     a:hover{
+         color:$secondary;
+     }
+   }
+}
+
+// Title section
+.title-section{
+    width: 100%;
+    h3{
+      text-align: center;
+      font-family:$nunito;
+      font-size:35px;
+      font-weight:700;
+      color:$black1;
+    }
+    hr{
+      width:50%;
+      height:5px !important;
+      margin:auto;
+      border:0;
+      background-color:$principal;
+      opacity:1;
+    }
+}
+
+

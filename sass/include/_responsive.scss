@@ -1,0 +1,102 @@
+/**** Width 991 ****/
+@media only screen and (max-width:991px) {
+     
+   /**** Header ****/
+   .text-header{
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       align-items: center;
+
+       h2{text-align: center;}
+
+       // Social media
+       ul.social-media{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top:10px !important;
+       }
+   }
+
+   .img-header{
+       margin-top:40px !important;
+   }
+
+   /**** Acerca de mi ****/
+   #acerca-de-mi{
+       .row{
+          flex-direction: column-reverse;
+
+          // Img
+          div{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+            img{
+                width:60%; 
+                height:100%;
+                margin-top:20px;
+                border-radius:50%;
+            }
+          }
+          .copy-about{
+              padding-left:5px; 
+              padding-right:0px;
+              h3{
+                width:auto;
+              }
+          }
+       }
+   }
+
+   /**** Brief ****/
+   #portafolio{
+       margin-bottom:40px;
+   }
+
+   // Webinars
+   .webinars-section{
+       .row{
+           .title-video h4{
+             text-align: center;
+             font-size:32px;
+             font-weight:700;
+             margin-bottom:30px;
+           }
+       }
+   }
+
+   // Social media
+   .social-media .grid-videos{
+       grid-template-columns: repeat(1,1fr);
+   }
+
+   // Tools
+   #herramienta .icons-skills .row{
+       gap:0px;
+   }
+
+   // Testimonies
+   .testimonies-slider{
+       width:100%;
+   }
+
+   // Table price
+   .table-price{
+    grid-template-columns: repeat(1, 1fr);
+   }
+
+   // Contact
+   #contacto .row .img-contact{display:none;}
+   
+}
+
+/**** Width 457 ****/
+@media only screen and (max-width:457px) {
+    .text-header h2{
+        font-size:35px !important;
+    }
+}
+
+

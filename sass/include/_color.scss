@@ -1,0 +1,52 @@
+// Principal color
+$principal:#2633c7;
+$secondary:#7adfd8; 
+$thirth:#c7ffd8;
+
+// Neutro
+$white:#ffffff;
+$white2:#fafafa;
+$white3:#eeeeee;
+
+// Black
+$black1:#141414;
+$black2:#333333;
+$black3:#222831;
+
+
+.black-color{
+    color:$black1;
+}
+.white-color{
+    color:$white;
+}
+.principal-color{
+   color:$principal;
+}
+.principal-bg{
+    background-color:$principal;
+}
+.secondary-color{
+    color:$secondary;
+}
+.secondary-bg{
+     background-color:$secondary;
+}
+
+// Buttons
+.principal-btn-color{
+    background-color:$principal;
+    color:$white;
+}
+.principal-btn-color:hover{
+    background-color:$secondary;
+    color:$black1;
+}
+.secondary-btn-color{
+    background-color:$secondary;
+    color:$black1;
+}
+.secondary-btn-color:hover{
+    background-color:$principal;
+    color:$white;
+}
